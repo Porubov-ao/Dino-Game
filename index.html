@@ -112,7 +112,7 @@
             let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
             if (cactusLeft < 40 && cactusLeft > 0 && dinoBottom <= 50) {
-                alert("GAME OVER!!! Счет: " + score);
+                alert("GAME OVER!!!\n Счет: " + score);
                 clearInterval(checkAlive);
                 isAlive = false;
                 location.reload();
