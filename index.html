@@ -111,7 +111,7 @@
             let dinoBottom = parseInt(window.getComputedStyle(dino).getPropertyValue("bottom"));
             let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
-            if (cactusLeft < 40 && cactusLeft > 0 && dinoBottom <= 50) {
+            if (cactusLeft < 60 && cactusLeft > 0 && dinoBottom <= 40) {
                 alert("GAME OVER!!!\nВаш Счет: " + score);
                 clearInterval(checkAlive);
                 isAlive = false;
